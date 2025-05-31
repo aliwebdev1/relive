@@ -1,0 +1,112 @@
+[
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ea9",
+    "category": "Supplements",
+    "name": "Health Tablets – Energy Boost",
+    "price": 22.99,
+    "stock": 20,
+    "ratings": 4.5,
+    "ratingsCount": 3725,
+    "img": "https://i.ibb.co/N6rJcgn5/Image-1.png",
+    "shipping": 6,
+    "quantity": 0
+  },
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ea4",
+    "category": "Vitamins",
+    "name": "Medicine, Drugs & Wellness Pack",
+    "price": 24.99,
+    "stock": 20,
+    "ratings": 5,
+    "ratingsCount": 3725,
+    "img": "https://i.ibb.co/CKzVLySM/Image-2.png",
+    "shipping": 5,
+    "quantity": 0
+  },
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ea7",
+    "category": "Pharmaceuticals",
+    "name": "Mutual Recognition Medicinal Pack",
+    "price": 20.0,
+    "stock": 20,
+    "ratings": 3.5,
+    "ratingsCount": 3725,
+    "img": "https://i.ibb.co/qMT7whGs/image2.webp",
+    "shipping": 15,
+    "quantity": 0
+  },
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ea3",
+    "category": "Pharmaceuticals",
+    "name": "New Pharmaceutical Product",
+    "price": 30.0,
+    "stock": 20,
+    "ratings": 5,
+    "ratingsCount": 3725,
+    "img": "https://i.ibb.co/0jhx3ddj/products.png",
+    "shipping": 10,
+    "quantity": 0
+  },
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ea1",
+    "category": "Supplements",
+    "name": "Women's Health & Energy Supplement",
+    "price": 14.99,
+    "stock": 20,
+    "ratings": 4.7,
+    "ratingsCount": 3725,
+    "img": "https://i.ibb.co/DfxfV9md/1615660659409.png",
+    "shipping": 13,
+    "quantity": 0
+  },
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ea2",
+    "category": "Supplements",
+    "name": "Brain Health & Performance Booster",
+    "price": 18.99,
+    "stock": 20,
+    "ratings": 5,
+    "ratingsCount": 3725,
+    "img": "https://i.ibb.co/MkZ8sR78/bottle.png",
+    "shipping": 15,
+    "quantity": 0
+  },
+
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ea5",
+    "category": "Vitamins",
+    "name": "Multivitamins for Men & Women",
+    "price": 19.99,
+    "stock": 20,
+    "ratings": 5,
+    "ratingsCount": 3725,
+    "img": "https://i.ibb.co/RkKk5mDG/image5.jpg",
+    "shipping": 20,
+    "quantity": 0
+  },
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ea6",
+    "category": "Vitamins",
+    "name": "Basic Wellness Supplement",
+    "price": 13.99,
+    "stock": 20,
+    "ratings": 2.5,
+    "ratingsCount": 3725,
+    "img": "https://i.ibb.co/FNXTgkL/image3.webp",
+    "shipping": 11,
+    "quantity": 0
+  },
+
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ea8",
+    "category": "Pharmaceuticals",
+    "name": "Pharmaceutical Health Product",
+    "price": 50.0,
+    "stock": 20,
+    "ratings": 5,
+    "ratingsCount": 3725,
+    "img": "https://i.ibb.co/wZqqVwfc/image2.jpg",
+    "shipping": 10,
+    "quantity": 0
+  }
+]

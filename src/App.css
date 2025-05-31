@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root {
+    --font-display: "Satoshi", "sans-serif";
+    --color-primary: #00C3B9;
+    --color-secondary: #4B4B4B;
+    --color-accent: #001716;
+    --color-gray: #555555;
+    --color-neutral: #D1D5DB;
+     --text-6xl: 80px;
+     --text-5xl: 60px;
+
+}
+
+
+
+.active {
+    color: black;
+    font-weight: bold;
+}

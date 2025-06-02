@@ -12,7 +12,7 @@ const Cart = () => {
       >
         <img className="w-5 h-5" src={cart} alt="" />{" "}
         <p className="absolute -top-2  -right-2 z-20 border-2 border-primary w-5 h-5 rounded-full flex justify-center items-center bg-primary text-white font-semibold">
-          1
+          0
         </p>
       </Link>
     </div>

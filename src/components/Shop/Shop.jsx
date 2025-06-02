@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Products from "../Home/Products/Products";
 import Product from "../Home/Products/Product";
 import Cart from "./Cart";
 
@@ -9,10 +8,19 @@ const Shop = () => {
   useEffect(() => {
     fetch("products.json")
       .then((res) => res.json())
-      .then((data) => {
-        setProducts(data);
-      });
+      .then((data) => setProducts(data));
   }, []);
+
+  const handleAddToCart = (product) => {
+    let cart = [];
+    const newCart = [...cart, product];
+    cart = newCart;
+    console.log(cart);
+
+    // const newCart = [...cart, product];
+    // setCart(product);
+  };
+
   return (
     <div className="px-5 md:px-30 py-0 md:py-10">
       <div className="text-center md:w-1/2 mx-auto p-3 md:p-0">
@@ -28,7 +36,11 @@ const Shop = () => {
       <div className="">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-5 py-5 md:py-10">
           {products.map((product) => (
-            <Product key={product.id} product={product} />
+            <Product
+              handleAddToCart={handleAddToCart}
+              key={product.id}
+              product={product}
+            />
           ))}
         </div>
       </div>

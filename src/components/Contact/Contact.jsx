@@ -14,7 +14,7 @@ const Contact = () => {
         </p>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-between gap-10">
+      <div className="flex flex-col     md:flex-row justify-between gap-10">
         {/* Contact Form */}
         <ContactForm></ContactForm>
 

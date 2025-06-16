@@ -26,6 +26,24 @@ const Products = () => {
     setVisibleItems(products.slice(0, 4)); // fixed: use 'products' instead of 'data'
   };
 
+  const handleAddToCart = (product) => {
+    const cartItem = JSON.parse(localStorage.getItem("cartItems")) || [];
+    console.log(typeof cartItem);
+
+    const findProduct = cartItem.find((item) => item.id == product.id);
+
+    if (findProduct) {
+      findProduct.quantity = findProduct.quantity + 1 
+    } else {
+      cartItem.push(product);
+      product.quantity = 1
+      
+    }
+
+    localStorage.setItem("cartItems", JSON.stringify(cartItem));
+    // console.log(findProduct);
+  };
+
   return (
     <div className="px-5 md:px-30">
       <div className="text-center md:w-1/2 mx-auto p-3 md:p-0">
@@ -40,7 +58,11 @@ const Products = () => {
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-5 py-5 md:py-10">
         {visibleItems.map((product) => (
-          <Product key={product.id} product={product} />
+          <Product
+            handleAddToCart={handleAddToCart}
+            key={product.id}
+            product={product}
+          />
         ))}
       </div>
 

@@ -80,12 +80,12 @@ const Header = () => {
         <ul className="menu menu-horizontal px-1">{menuItems}</ul>
       </div>
       <div className="navbar-end">
-        {/* <Link
-          to="/"
+        <Link
+          to="/cart"
           className="border-2 border-secondary rounded-full w-12 h-12 flex justify-center items-center me-4"
         >
           <img className="w-5 h-5" src={cart} alt="" />
-        </Link> */}
+        </Link>
         <Link
           to="/"
           className="border-2 border-secondary rounded-full w-12 h-12 flex justify-center items-center "

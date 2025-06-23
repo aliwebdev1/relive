@@ -5,6 +5,7 @@ import About from "../../components/About/About";
 import Contact from "../../components/Contact/Contact";
 import Shop from "../../components/Shop/Shop";
 import Cart from "../../components/Cart/Cart";
+import Login from "../../components/Login/login";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       },
     ],
   },
+  {
+    path: "/login",
+    element : <Login></Login>
+  }
 ]);
 
 export default router;

@@ -87,7 +87,7 @@ const Header = () => {
           <img className="w-5 h-5" src={cart} alt="" />
         </Link>
         <Link
-          to="/"
+          to="/login"
           className="border-2 border-secondary rounded-full w-12 h-12 flex justify-center items-center "
         >
           <img className="w-5 h-5" src={user} alt="" />
